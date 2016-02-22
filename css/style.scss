@@ -1,0 +1,34 @@
+$full: 100%;
+$height: 578px;
+$silver: #c0c0c0;
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: $full;
+	margin: 0;
+}
+
+.code-input {
+	height: $height;
+	width: $full;
+}
+
+.result-output {
+	background-color: #fff;
+	@extend .code-input;
+}
+
+.main-table {
+	background-color: $silver;
+	border: 1px solid $silver;
+}
+
+.result-header {
+	color: #808000;
+	margin: 10px 0;
+}
+
+.copy {
+	text-align: center;
+	color: #00f;
+}

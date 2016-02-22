@@ -1,19 +1,19 @@
 ﻿<!DOCTYPE html>
-<head> 
+<head>
 <meta charset='UTF-8' />
 <title>Hoàng Ân's editor</title>
-<script type='text/javascript' src='js/Anscript.js'></script>
-<link rel='stylesheet' type='text/css' href='css/Anstyle.css' />
+<script type='text/javascript' src='js/script.js'></script>
+<link rel='stylesheet' type='text/css' href='css/style.css' />
 </head>
 
 <body>
-<table width="100%" border="0" cellpadding="5" cellspacing="0" class="maintable">
+<table width="100%" border="0" cellpadding="5" cellspacing="0" class="main-table">
 	<tr>
 		<td width="50%">
 			<button type="button" style="margin-bottom:5px" onclick="display()">Tự trải nghiệm!</button>
 			<button type="button" onclick="open_new()">Trải nghiệm trong cửa sổ mới</button>
 			<button type="button" onclick="reset()">Làm lại</button>
-			<textarea class="code_input" id="code" wrap="soft">
+			<textarea class="code-input" id="code" wrap="soft">
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,11 +27,11 @@
 </html></textarea>
 		</td>
 		<td>
-			<p class="result_header">Kết quả:</p>
-			<iframe class="result_output" name="view" frameborder="0" src="about:blank"></iframe>
+			<p class="result-header">Kết quả:</p>
+			<iframe class="result-output" name="view" frameborder="0" src="about:blank"></iframe>
 		</td>
 	</tr>
 </table>
-<p class="copy"><strong>Copyright &copy; 2012 Hoàng Ân</strong></p>
+<p class="copy"><strong>Copyright &copy; 2012<script>new Date().getFullYear() > 2012 && document.write("-" + new Date().getFullYear());</script>, Hoàng Ân</strong></p>
 </body>
 </html>
